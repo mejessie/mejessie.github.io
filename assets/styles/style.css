@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: #000;
+    text-rendering: optimizeLegibility;
+}
+body{
+    cursor: default;
+    font-family: Maledpan;
+    user-select: none;
+}
+/* HEADER */
+header{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 0 20px;
+}
+/*NAVBAR*/
+nav{
+    text-align: center;
+}
+/*Navbar items*/
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+}
+/*navbar logo*/
+.nav-logo{
+    margin: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 160%;
+    letter-spacing: -7px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    border-bottom: 1px solid #05d9e8;
+}
+/*navbar lists*/
+.nav-lists{
+    display: flex;
+    align-self: center;
+}
+.nav-lists li{
+    margin: 0 10px;
+    list-style: none;
+}
+.nav-lists li a{
+    color: #fff;
+    font-size: 90%;
+    text-decoration: none;
+    cursor: pointer;
+    width: 50%;
+    font-family: Maledpan;
+    font-weight: normal;
+    border-bottom: 4px solid transparent;
+    margin: 0 15px;
+    transition: border-bottom 0.4s, margin 0.4s, padding 0.4s;
+}
+.nav-lists li a:active,
+.nav-lists li a:hover{
+    margin: 0 0;
+    padding: 0 15px;
+    border-bottom: 4px solid #05d9e8;
+}
+/*Header text*/
+.header-text{
+    font-family: Arabica;
+    display: flex;
+    height: 65vh;
+    justify-content: space-between;
+    align-items: center;
+}
+/*image profile*/
+.header-text img{
+    width: 27%;
+    border-radius: 50%;
+    transition: transform 1.8s;
+}
+header:hover .header-text img{
+    transform: translateX(70%);
+}
+.text h1{
+    color: #fff;
+    font-size: 150px;
+    line-height: 145px;
+    text-shadow: 10px 10px #005678;
+}
+.text h1 span{
+    font-size: 150px;
+    color: #05d9e8;
+}
+/*button*/
+.text div{
+    margin: 20px 0 0 0;
+}
+.hd-btn-1{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px 7px 7px 7px;
+    border-radius: 24px;
+    border: 1px solid #05d9e8;
+    background-color: #05d9e8;
+    transition: background-color 0.4s, color 0.4s;
+}
+.hd-btn-1:active,
+.hd-btn-1:hover{
+    background-color: #05d9e800;
+    color: #05d9e8;
+}
+/*About section*/
+.about-section{
+    background-color: #ececec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.about-section article{
+    width: 60%;
+    height: 95%;
+    background-color: #fff;/* #ff2a6d */
+    transition: opacity 1.4s, transform 1.2s, box-shadow 0.4s;
+    overflow: auto;
+}
+.about-section:hover article{
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 7px 29px 0px;
+}
+/*About text*/
+.about-text{
+    user-select: text;
+    padding-top: 1%;
+    padding-left: 6%;
+    transform: translateY(-160px);
+}
+.about-text:hover{
+    transform: translate(0px);
+}
+.about-text a{
+    text-decoration: none;
+}
+.about-text h1{
+    font-size: 60px;
+}
+/*About note*/
+.about-note{
+    user-select: text;
+    padding-top: 1%;
+    padding-left: 6%;
+    transform: translateY(-160px);
+}
+.about-note:hover{
+    transform: translate(0px);
+}
+.about-note a{
+    text-decoration: none;
+}
+.about-note h1{
+    font-size: 60px;
+}
+.about-note p{
+    text-align: justify;
+    max-width: 80%;
+}
+.about-note p span{
+    font-size: 200%;
+    font-style: italic;
+}
+
+/*Scroll bar*/
+::-webkit-scrollbar{
+    width: 14px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #05d9e8;
+    border-radius: 24px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #fff;
+}
+::-webkit-scrollbar-track {
+    background:#005678; 
+}
+/* Fonts */
+@font-face{
+    font-family: Arabica;
+    src: url(../fonts/Arabica.woff);
+}
+@font-face{
+    font-family: Maledpan;
+    src: url(../fonts/maledpan-regular-webfont.woff);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.resume-contain{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/background-3.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.resume-con{
+    background-color: #fff;
+    height: 50vh;
+}
+.resume-con h1{
+    text-align: center;
+    font-size: 60px;;
+    padding-top: 24px;
+}
+.resume-section{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    background-color: #fff;
+}
+.resume{
+    display: flex;
+    width: 700px;
+    height: 300px;
+    box-shadow: #000 0 0 0 0.3px;
+}
+.resume figure{
+    max-width: 50%;
+}
+.resume figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.resume-right{
+    text-align: start;
+}
+.resume article{
+    padding: 6px 0 0 14px;
+}
+.resume article h1{
+    font-size: 36px;
+}
+.resume article span{
+    font-size: 20px;
+}
+*/
