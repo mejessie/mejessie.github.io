@@ -118,7 +118,7 @@ header:hover .header-text img{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70vh;
+    height: 72vh;
 }
 .about-section article{
     width: 60%;
@@ -169,21 +169,6 @@ header:hover .header-text img{
 .about-note p span{
     font-size: 200%;
     font-style: italic;
-}
-
-/*Scroll bar*/
-::-webkit-scrollbar{
-    width: 14px;
-}
-::-webkit-scrollbar-thumb {
-    background-color: #05d9e8;
-    border-radius: 24px;
-}
-::-webkit-scrollbar-thumb:hover {
-    background-color: #fff;
-}
-::-webkit-scrollbar-track {
-    background:#005678; 
 }
 /* Fonts */
 @font-face{
