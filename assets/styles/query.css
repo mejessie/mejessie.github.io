@@ -67,6 +67,7 @@
     }
     .skill-article{
         display: block;
+        padding: 0 6%;
     }
 }
 @media only screen and (max-width: 732px) {
@@ -108,6 +109,7 @@
     }
     .skill-article{
         display: block;
+        padding: 0 6%;
     }
     .skill-text h1{
         font-size: 36px;
@@ -160,6 +162,7 @@
     }
     .skill-article{
         display: block;
+        padding: 0 6%;
     }
     .skill-text h1{
         font-size: 30px;
@@ -220,6 +223,7 @@
     }
     .skill-article{
         display: block;
+        padding: 0 6%;
     }
     .skill-text h1{
         font-size: 26px;
@@ -283,6 +287,7 @@
     }
     .skill-article{
         display: block;
+        padding: 0 6%;
     }
     .skill-text h1{
         font-size: 26px;
