@@ -1,6 +1,5 @@
 let checkScrollY = function(scrollScore, contentName){
     for(let i = 0; i < contentName.length; i++){
-      console.log(i);
       if(window.scrollY>=scrollScore[i]){
         document.getElementById(contentName[i]).style.opacity = '1';
       }

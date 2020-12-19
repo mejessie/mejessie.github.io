@@ -171,7 +171,10 @@ header:hover .header-text img{
     font-style: italic;
 }
 .skill-header{
-    margin-left: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 6%;
 }
 .skill-header h1{
     font-size: 60px;
