@@ -5,9 +5,6 @@
     header:hover .header-text img{
         transform: translate(50px);
     }
-    .about-section article{
-        height: 110%;
-    }
 }
 @media only screen and (max-width: 1025px) {
     header:hover .header-text img{
@@ -91,6 +88,12 @@
     .about-note{
         transform: translate(0px);
     }
+    .skill-header h1{
+        font-size: 46px;
+    }
+    .skill-text h1{
+        font-size: 36px;
+    }
 }
 @media only screen and (max-width: 641px) {
     *{
@@ -130,6 +133,12 @@
     }
     .about-note{
         transform: translate(0px);
+    }
+    .skill-header h1{
+        font-size: 40px;
+    }
+    .skill-text h1{
+        font-size: 30px;
     }
 }
 @media only screen and (max-width: 481px) {
@@ -180,6 +189,15 @@
     .about-note p{
         font-size: 14px;
     }
+    .skill-header h1{
+        font-size: 30px;
+    }
+    .skill-text h1{
+        font-size: 26px;
+    }
+    .skill-text p{
+        font-size: 14px;
+    }
 }
 @media only screen and (max-width: 400px) {
     .nav-lists li a{
@@ -227,6 +245,15 @@
         font-size: 14px;
     }
     .about-note p{
+        font-size: 14px;
+    }
+    .skill-header h1{
+        font-size: 30px;
+    }
+    .skill-text h1{
+        font-size: 26px;
+    }
+    .skill-text p{
         font-size: 14px;
     }
 }
