@@ -65,6 +65,9 @@
     .skill-section{
         border-top: 3px solid #000;
     }
+    .skill-article{
+        display: block;
+    }
 }
 @media only screen and (max-width: 732px) {
     *{
@@ -102,6 +105,9 @@
     }
     .skill-header h1{
         font-size: 46px;
+    }
+    .skill-article{
+        display: block;
     }
     .skill-text h1{
         font-size: 36px;
@@ -151,6 +157,9 @@
     }
     .skill-header h1{
         font-size: 40px;
+    }
+    .skill-article{
+        display: block;
     }
     .skill-text h1{
         font-size: 30px;
@@ -208,6 +217,9 @@
     }
     .skill-header h1{
         font-size: 30px;
+    }
+    .skill-article{
+        display: block;
     }
     .skill-text h1{
         font-size: 26px;
@@ -268,6 +280,9 @@
     }
     .skill-header h1{
         font-size: 30px;
+    }
+    .skill-article{
+        display: block;
     }
     .skill-text h1{
         font-size: 26px;
