@@ -10,6 +10,7 @@ body{
     cursor: default;
     font-family: Maledpan;
     user-select: none;
+    overflow-x: hidden;
 }
 /* HEADER */
 header{
@@ -118,14 +119,12 @@ header:hover .header-text img{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 72vh;
 }
 .about-section article{
+    padding-bottom: 50px;
     width: 60%;
-    height: 95%;
     background-color: #fff;/* #ff2a6d */
     transition: opacity 1.4s, transform 1.2s, box-shadow 0.4s;
-    overflow: auto;
 }
 .about-section:hover article{
     box-shadow: rgba(0, 0, 0, 0.8) 0px 7px 29px 0px;
@@ -164,11 +163,43 @@ header:hover .header-text img{
 }
 .about-note p{
     text-align: justify;
-    max-width: 80%;
+    background-position: center;
+    background-size: cover;
 }
 .about-note p span{
     font-size: 200%;
     font-style: italic;
+}
+.skill-header h1{
+    font-size: 60px;
+}
+.skill-article{
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 10fr 10fr 1fr;
+    overflow: hidden;
+    transition: transform 0.4s;
+    padding: 50px 0;
+}
+.skill-article:hover{
+    transform: scale(1.04);
+}
+.skill-text h1{
+    color: #fff;
+    font-size: 42px;
+}
+.skill-text p{
+    color: #fff;
+}
+.ws-section{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/website_skill.jpg);
+}
+.mc-section{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/microcontroller_skill.jpg);
+}
+.ct-section{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/competitive_skill.jpg);
 }
 /* Fonts */
 @font-face{

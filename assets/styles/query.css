@@ -96,6 +96,14 @@
     *{
         font-size: 16px;
     }
+    header nav{
+        display: flex;
+        justify-content: center;
+    }
+    .nav-logo{
+        position: absolute;
+        bottom: 0px;
+    }
     .text h1{
         font-size: 95px;
     }
@@ -127,6 +135,10 @@
 @media only screen and (max-width: 481px) {
     .nav-lists li a{
         font-size: 73%;
+    }
+    header nav{
+        display: flex;
+        justify-content: center;
     }
     .nav-logo{
         position: absolute;
@@ -172,6 +184,10 @@
 @media only screen and (max-width: 400px) {
     .nav-lists li a{
         font-size: 73%;
+    }
+    header nav{
+        display: flex;
+        justify-content: center;
     }
     .nav-logo{
         position: absolute;
