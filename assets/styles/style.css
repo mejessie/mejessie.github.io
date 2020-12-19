@@ -170,6 +170,9 @@ header:hover .header-text img{
     font-size: 200%;
     font-style: italic;
 }
+.skill-header{
+    margin-left: 50px;
+}
 .skill-header h1{
     font-size: 60px;
 }
@@ -177,7 +180,7 @@ header:hover .header-text img{
     background-position: center;
     background-size: cover;
     display: grid;
-    grid-template-columns: 1fr 10fr 10fr 1fr;
+    grid-template-columns: 1fr 5fr 5fr 1fr;
     overflow: hidden;
     transition: transform 0.4s;
     padding: 50px 0;
