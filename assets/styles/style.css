@@ -207,6 +207,54 @@ header:hover .header-text img{
 .ct-section{
     background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/competitive_skill.jpg);
 }
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 54px 0;
+}
+.line{
+    border: 2px solid #05d9e8;
+    margin-bottom: 20px;
+}
+.contact-header-text{
+    text-align: center;
+}
+.nav-footer{
+    display: flex;
+    align-self: center;
+}
+.nav-footer li{
+    margin: 0 10px;
+    list-style: none;
+}
+.nav-footer li a{
+    font-size: 90%;
+    text-decoration: none;
+    cursor: pointer;
+    width: 50%;
+    font-family: Maledpan;
+    font-weight: normal;
+    border-bottom: 4px solid transparent;
+    margin: 0 15px;
+    transition: color 0.2s;
+}
+.nav-footer li a:hover{
+    color: #00000080;
+}
+.social-media{
+    text-align: center;
+}
+.social-media ion-icon{
+    transition: color 0.2s;
+    padding-right: 10px;
+}
+.social-media ion-icon:hover{
+    color: #00000080;
+}
+.tel{
+    text-align: center;
+}
 /* Fonts */
 @font-face{
     font-family: Arabica;
